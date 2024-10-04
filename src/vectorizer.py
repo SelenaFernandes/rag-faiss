@@ -14,5 +14,5 @@ class Vectorizer:
 
 if __name__ == "__main__":
     vectorizer = Vectorizer()
-    embedding = vectorizer.embed_text("Exemplo de documento")
+    embedding = vectorizer.embed_text("Documento")
     print(embedding)
